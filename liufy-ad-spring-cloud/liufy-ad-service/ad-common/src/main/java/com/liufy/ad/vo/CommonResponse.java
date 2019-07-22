@@ -1,11 +1,16 @@
 package com.liufy.ad.vo;
 
+import com.liufy.ad.common.ResponseCode;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.io.Serializable;
 
+/**
+ * 统一响应类
+ * @param <T>
+ */
 @Getter
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class CommonResponse<T> implements Serializable {
